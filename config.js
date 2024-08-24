@@ -10,26 +10,26 @@ module.exports = {
      */
     botname: process.env.BotName || "Queen Anya Bot",
     footer: process.env.Footer || "© Powered By Queen Anya Bot",
-    prefa: process.env.Prefix || "-",
+    prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownername: process.env.Owner_Name || "blaq boy",
+    ownernumber: process.env.Owner_Number || "263713571083",
+    instagramId: process.env.Insta || "da_rknetzw",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
+    author: process.env.Author || "@Blaq Botz",
     packname: process.env.PackName || "Queen Anya v2 MD",
     socialLink: process.env.Web || "https://github.com/PikaBotz",
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://test:<test>@dar.gs9lk.mongodb.net/?retryWrites=true&w=majority&appName=Dar",
     sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
 
     /**
